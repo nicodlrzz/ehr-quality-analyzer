@@ -5,7 +5,7 @@ import plotly.express as px
 # Streamlit page configuration
 st.set_page_config(page_title="EHR Data Quality Analyzer", layout="wide")
 
-st.title("🏥 EHR Data Quality & Clinical Analyzer")
+st.title("EHR Data Quality & Clinical Analyzer")
 st.markdown("This application evaluates data integrity and clinical consistency within Electronic Health Records (EHR).")
 
 # 1. Data ingestion pipeline
@@ -93,4 +93,3 @@ with col_chart2:
     clean_df = df[df['age'] <= 115]
     fig_scatter = px.scatter(clean_df, x='age', y='hba1c', color='diagnosis', size='age', hover_data=['name'], title='HbA1c Levels by Age (Filtered Dataset)')
     st.plotly_chart(fig_scatter, use_container_width=True)
-    

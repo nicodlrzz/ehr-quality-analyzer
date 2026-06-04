@@ -5,10 +5,3 @@ P003,Luis Martinez,142,Male,90,6.1,Healthy,2026-03-10
 P004,Laura Pena,29,Female,,5.2,Healthy,2026-04-05
 P005,Jorge Rossi,52,Male,310,8.5,Hypertension,2026-05-12
 P006,Marta Silva,61,Female,135,6.4,Pre-diabetes,2026-05-28
-## Anomalías clínicas sembradas aquí:
-
-P003: Edad de 142 años (Outlier biológico / error de tipeo).
-
-P004: Presión sistólica vacía (Dato faltante crítico).
-
-P005: Presión sistólica de 310 mmHg (Incompatible con la vida fisiológica / error de sensor o entrada). ##
